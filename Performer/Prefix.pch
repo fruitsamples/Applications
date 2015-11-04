@@ -1,0 +1,11 @@
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+	#import <Quartz/Quartz.h>
+#ifdef MAC_OS_X_VERSION_10_5
+	#import <QTKit/QTKit.h>
+#endif
+#endif
+
+#ifndef MAC_OS_X_VERSION_10_5
+#include <QuickTime/QuickTime.h>
+#endif

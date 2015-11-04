@@ -1,0 +1,303 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8404C21907C036220032E6A6 /* AppController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8404C21707C036220032E6A6 /* AppController.h */; };
+		8404C21A07C036220032E6A6 /* AppController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8404C21807C036220032E6A6 /* AppController.m */; };
+		84FDF9FF0C1DD37B003496C9 /* QTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84FDF9FE0C1DD37B003496C9 /* QTKit.framework */; };
+		8D1107280486CEB800E47090 /* Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 32CA4F630368D1EE00C91783 /* Prefix.pch */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		E2A07096067D7C1E00EAF32C /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2A07095067D7C1E00EAF32C /* Quartz.framework */; };
+		E2E3D64E07DA8D5500B3422A /* CompositionSource.m in Sources */ = {isa = PBXBuildFile; fileRef = E2E3D64D07DA8D5500B3422A /* CompositionSource.m */; };
+		E2E3D65D07DA8E0400B3422A /* ImageSource.m in Sources */ = {isa = PBXBuildFile; fileRef = E2E3D65C07DA8E0400B3422A /* ImageSource.m */; };
+		E2E3D66407DA8FC200B3422A /* QuickTime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2E3D66307DA8FC200B3422A /* QuickTime.framework */; };
+		E2E3D70507DA901A00B3422A /* MovieSource.m in Sources */ = {isa = PBXBuildFile; fileRef = E2E3D70407DA901A00B3422A /* MovieSource.m */; };
+		E2E3D76007DABEC500B3422A /* MediaSource.h in Headers */ = {isa = PBXBuildFile; fileRef = E2E3D75F07DABEC500B3422A /* MediaSource.h */; };
+		E2E3D77307DABF7D00B3422A /* MediaSource.m in Sources */ = {isa = PBXBuildFile; fileRef = E2E3D77207DABF7D00B3422A /* MediaSource.m */; };
+		E2E3D7EC07DADCD800B3422A /* Mixer.qtz in Resources */ = {isa = PBXBuildFile; fileRef = E2E3D7EB07DADCD800B3422A /* Mixer.qtz */; };
+		E2ED5ACD067D831E0057BE02 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 29B97318FDCFA39411CA2CEA /* MainMenu.nib */; };
+		E2EE043807DAF23B00DD59EA /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2EE043707DAF23B00DD59EA /* OpenGL.framework */; };
+		E2EE04B407DAF70D00DD59EA /* MediaSourceView.h in Headers */ = {isa = PBXBuildFile; fileRef = E2EE04B307DAF70D00DD59EA /* MediaSourceView.h */; };
+		E2EE04C007DAF73F00DD59EA /* MediaSourceView.m in Sources */ = {isa = PBXBuildFile; fileRef = E2EE04BF07DAF73F00DD59EA /* MediaSourceView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97319FDCFA39411CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
+		8404C21707C036220032E6A6 /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = AppController.h; sourceTree = "<group>"; };
+		8404C21807C036220032E6A6 /* AppController.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = AppController.m; sourceTree = "<group>"; };
+		84FDF9FE0C1DD37B003496C9 /* QTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QTKit.framework; path = /System/Library/Frameworks/QTKit.framework; sourceTree = "<absolute>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* QuartzComposerPerformer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuartzComposerPerformer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2A07095067D7C1E00EAF32C /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = /System/Library/Frameworks/Quartz.framework; sourceTree = "<absolute>"; };
+		E2E3D64D07DA8D5500B3422A /* CompositionSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompositionSource.m; sourceTree = "<group>"; };
+		E2E3D65C07DA8E0400B3422A /* ImageSource.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = ImageSource.m; sourceTree = "<group>"; };
+		E2E3D66307DA8FC200B3422A /* QuickTime.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickTime.framework; path = /System/Library/Frameworks/QuickTime.framework; sourceTree = "<absolute>"; };
+		E2E3D70407DA901A00B3422A /* MovieSource.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = MovieSource.m; sourceTree = "<group>"; };
+		E2E3D75F07DABEC500B3422A /* MediaSource.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = MediaSource.h; sourceTree = "<group>"; };
+		E2E3D77207DABF7D00B3422A /* MediaSource.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = MediaSource.m; sourceTree = "<group>"; };
+		E2E3D7EB07DADCD800B3422A /* Mixer.qtz */ = {isa = PBXFileReference; lastKnownFileType = file; path = Mixer.qtz; sourceTree = "<group>"; };
+		E2EE043707DAF23B00DD59EA /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
+		E2EE04B307DAF70D00DD59EA /* MediaSourceView.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = MediaSourceView.h; sourceTree = "<group>"; };
+		E2EE04BF07DAF73F00DD59EA /* MediaSourceView.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = MediaSourceView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				E2A07096067D7C1E00EAF32C /* Quartz.framework in Frameworks */,
+				E2E3D66407DA8FC200B3422A /* QuickTime.framework in Frameworks */,
+				E2EE043807DAF23B00DD59EA /* OpenGL.framework in Frameworks */,
+				84FDF9FF0C1DD37B003496C9 /* QTKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* QuartzComposerPerformer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* QuartzComposerPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* Prefix.pch */,
+				E2A07092067D7BEB00EAF32C /* Application */,
+				E2E3D78B07DAC57600B3422A /* Media Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = QuartzComposerPlayer;
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E2E3D7EB07DADCD800B3422A /* Mixer.qtz */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+				29B97318FDCFA39411CA2CEA /* MainMenu.nib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84FDF9FE0C1DD37B003496C9 /* QTKit.framework */,
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+				E2A07095067D7C1E00EAF32C /* Quartz.framework */,
+				E2EE043707DAF23B00DD59EA /* OpenGL.framework */,
+				E2E3D66307DA8FC200B3422A /* QuickTime.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E2A07092067D7BEB00EAF32C /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				8404C21707C036220032E6A6 /* AppController.h */,
+				8404C21807C036220032E6A6 /* AppController.m */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = Application;
+			sourceTree = "<group>";
+		};
+		E2E3D78B07DAC57600B3422A /* Media Sources */ = {
+			isa = PBXGroup;
+			children = (
+				E2E3D75F07DABEC500B3422A /* MediaSource.h */,
+				E2E3D77207DABF7D00B3422A /* MediaSource.m */,
+				E2EE04B307DAF70D00DD59EA /* MediaSourceView.h */,
+				E2EE04BF07DAF73F00DD59EA /* MediaSourceView.m */,
+				E2E3D64D07DA8D5500B3422A /* CompositionSource.m */,
+				E2E3D65C07DA8E0400B3422A /* ImageSource.m */,
+				E2E3D70407DA901A00B3422A /* MovieSource.m */,
+			);
+			name = "Media Sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8D1107270486CEB800E47090 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D1107280486CEB800E47090 /* Prefix.pch in Headers */,
+				8404C21907C036220032E6A6 /* AppController.h in Headers */,
+				E2E3D76007DABEC500B3422A /* MediaSource.h in Headers */,
+				E2EE04B407DAF70D00DD59EA /* MediaSourceView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* QuartzComposerPerformer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A41834DF0A253C2100870CCB /* Build configuration list for PBXNativeTarget "QuartzComposerPerformer" */;
+			buildPhases = (
+				8D1107270486CEB800E47090 /* Headers */,
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QuartzComposerPerformer;
+			productInstallPath = "$(HOME)/Applications";
+			productName = QuartzComposerPlayer;
+			productReference = 8D1107320486CEB800E47090 /* QuartzComposerPerformer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = A41834E30A253C2100870CCB /* Build configuration list for PBXProject "QuartzComposerPerformer" */;
+			compatibilityVersion = "Xcode 2.4";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* QuartzComposerPlayer */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* QuartzComposerPerformer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2ED5ACD067D831E0057BE02 /* MainMenu.nib in Resources */,
+				E2E3D7EC07DADCD800B3422A /* Mixer.qtz in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				8404C21A07C036220032E6A6 /* AppController.m in Sources */,
+				E2E3D64E07DA8D5500B3422A /* CompositionSource.m in Sources */,
+				E2E3D65D07DA8E0400B3422A /* ImageSource.m in Sources */,
+				E2E3D70507DA901A00B3422A /* MovieSource.m in Sources */,
+				E2E3D77307DABF7D00B3422A /* MediaSource.m in Sources */,
+				E2EE04C007DAF73F00DD59EA /* MediaSourceView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		29B97318FDCFA39411CA2CEA /* MainMenu.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29B97319FDCFA39411CA2CEA /* English */,
+			);
+			name = MainMenu.nib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A41834E00A253C2100870CCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				PRODUCT_NAME = QuartzComposerPerformer;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		A41834E10A253C2100870CCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				PRODUCT_NAME = QuartzComposerPerformer;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A41834E40A253C2100870CCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SDKROOT = /Developer/SDKs/MacOSX10.5.sdk;
+			};
+			name = Debug;
+		};
+		A41834E50A253C2100870CCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				SDKROOT = /Developer/SDKs/MacOSX10.5.sdk;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A41834DF0A253C2100870CCB /* Build configuration list for PBXNativeTarget "QuartzComposerPerformer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A41834E00A253C2100870CCB /* Debug */,
+				A41834E10A253C2100870CCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A41834E30A253C2100870CCB /* Build configuration list for PBXProject "QuartzComposerPerformer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A41834E40A253C2100870CCB /* Debug */,
+				A41834E50A253C2100870CCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

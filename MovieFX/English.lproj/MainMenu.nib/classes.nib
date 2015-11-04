@@ -1,0 +1,21 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {performExport = id; }; 
+            CLASS = AppController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                exportButton = NSButton; 
+                parameterView = QCCompositionParameterView; 
+                pickerView = QCCompositionPickerView; 
+                progressIndicator = NSProgressIndicator; 
+                qcView = QCView; 
+                window = NSWindow; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = ImageView; LANGUAGE = ObjC; SUPERCLASS = NSImageView; }
+    ); 
+    IBVersion = 1; 
+}
